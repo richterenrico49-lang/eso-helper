@@ -27,7 +27,7 @@ jobs:
       run: npm install -g pnpm
     
     - name: Install dependencies
-      run: pnpm install
+      run: pnpm install --no-frozen-lockfile
     
     - name: Build web app
       run: pnpm run build
@@ -42,8 +42,12 @@ jobs:
       working-directory: ./android
       run: ./gradlew assembleRelease
     
+    - name: Check if APK exists
+      run: ls -la android/app/build/outputs/apk/release/ || echo "APK not found"
+    
     - name: Upload APK as artifact
       uses: actions/upload-artifact@v4
+      if: success()
       with:
         name: eso-helper-apk
         path: android/app/build/outputs/apk/release/app-release.apk
