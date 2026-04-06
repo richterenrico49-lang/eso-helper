@@ -1,0 +1,66 @@
+{
+  "app": {
+    "title": "ESO Helper",
+    "subtitle": "Your companion for The Elder Scrolls Online"
+  },
+  "nav": {
+    "home": "Home",
+    "maps": "Maps",
+    "builds": "Builds",
+    "quests": "Quests",
+    "crafting": "Crafting",
+    "sets": "Sets",
+    "skills": "Skills",
+    "settings": "Settings"
+  },
+  "hero": {
+    "title": "Welcome to Tamriel",
+    "subtitle": "Your ultimate companion for The Elder Scrolls Online",
+    "description": "Explore interactive maps, manage your characters, find crafting resources, and optimize your builds with ESO Helper."
+  },
+  "features": {
+    "maps": {
+      "title": "Interactive Maps",
+      "description": "Discover all zones, dungeons, delves, and hidden treasures with detailed markings."
+    },
+    "builds": {
+      "title": "Character Builds",
+      "description": "Create and manage optimal builds for your characters with skill and equipment recommendations."
+    },
+    "quests": {
+      "title": "Daily Quests",
+      "description": "Manage your daily quests and achievements to track your progression."
+    },
+    "crafting": {
+      "title": "Crafting Resources",
+      "description": "Find all crafting materials, recipes, and crafting locations across the world."
+    },
+    "sets": {
+      "title": "Equipment Sets",
+      "description": "Browse all available sets, their bonuses, and locations."
+    },
+    "skills": {
+      "title": "Skills",
+      "description": "Learn all skills, morphs, and ultimates for every class."
+    }
+  },
+  "buttons": {
+    "explore": "Explore",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "language": {
+    "german": "Deutsch",
+    "english": "English"
+  },
+  "footer": {
+    "description": "ESO Helper is an unofficial companion for The Elder Scrolls Online.",
+    "copyright": "© 2026 ESO Helper. All rights reserved.",
+    "disclaimer": "The Elder Scrolls Online is a trademark of ZeniMax Media Inc."
+  }
+}

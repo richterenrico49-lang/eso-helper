@@ -1,0 +1,66 @@
+{
+  "app": {
+    "title": "ESO Helper",
+    "subtitle": "Dein Begleiter für The Elder Scrolls Online"
+  },
+  "nav": {
+    "home": "Startseite",
+    "maps": "Karten",
+    "builds": "Builds",
+    "quests": "Quests",
+    "crafting": "Crafting",
+    "sets": "Sets",
+    "skills": "Fähigkeiten",
+    "settings": "Einstellungen"
+  },
+  "hero": {
+    "title": "Willkommen in Tamriel",
+    "subtitle": "Dein ultimativer Begleiter für The Elder Scrolls Online",
+    "description": "Erkunde interaktive Karten, verwalte deine Charaktere, finde Crafting-Ressourcen und optimiere deine Builds mit ESO Helper."
+  },
+  "features": {
+    "maps": {
+      "title": "Interaktive Karten",
+      "description": "Entdecke alle Zonen, Dungeons, Delves und versteckte Schätze mit detaillierten Markierungen."
+    },
+    "builds": {
+      "title": "Charakterbuilds",
+      "description": "Erstelle und verwalte optimale Builds für deine Charaktere mit Skill- und Ausrüstungsempfehlungen."
+    },
+    "quests": {
+      "title": "Tägliche Quests",
+      "description": "Verwalte deine täglichen Quests und Achievements, um deine Progression zu verfolgen."
+    },
+    "crafting": {
+      "title": "Crafting-Ressourcen",
+      "description": "Finde alle Crafting-Materialien, Rezepte und Herstellungsorte in der ganzen Welt."
+    },
+    "sets": {
+      "title": "Ausrüstungssets",
+      "description": "Durchsuche alle verfügbaren Sets, ihre Boni und Fundorte."
+    },
+    "skills": {
+      "title": "Fähigkeiten",
+      "description": "Lerne alle Fähigkeiten, Morphs und Ultimates für jede Klasse kennen."
+    }
+  },
+  "buttons": {
+    "explore": "Erkunden",
+    "learnMore": "Mehr erfahren",
+    "getStarted": "Jetzt starten",
+    "close": "Schließen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "save": "Speichern",
+    "cancel": "Abbrechen"
+  },
+  "language": {
+    "german": "Deutsch",
+    "english": "English"
+  },
+  "footer": {
+    "description": "ESO Helper ist ein inoffizieller Begleiter für The Elder Scrolls Online.",
+    "copyright": "© 2026 ESO Helper. Alle Rechte vorbehalten.",
+    "disclaimer": "The Elder Scrolls Online ist ein Warenzeichen von ZeniMax Media Inc."
+  }
+}
