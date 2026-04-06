@@ -42,13 +42,15 @@ jobs:
       working-directory: ./android
       run: ./gradlew assembleRelease
     
-    - name: Check if APK exists
-      run: ls -la android/app/build/outputs/apk/release/ || echo "APK not found"
+    - name: Find APK
+      run: find . -name "app-release.apk" -type f
     
-    - name: Upload APK as artifact
-      uses: actions/upload-artifact@v4
+    - name: Upload to Release
+      uses: softprops/action-gh-release@v1
       if: success()
       with:
-        name: eso-helper-apk
-        path: android/app/build/outputs/apk/release/app-release.apk
-        retention-days: 30
+        files: android/app/build/outputs/apk/release/app-release.apk
+        tag_name: v1.0.0-${{ github.run_number }}
+        name: ESO Helper APK Build #${{ github.run_number }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
